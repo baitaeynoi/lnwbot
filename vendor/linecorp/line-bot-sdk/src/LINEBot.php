@@ -35,7 +35,7 @@ use ReflectionClass;
  */
 class LINEBot
 {
-    const DEFAULT_ENDPOINT_BASE = 'https://api.line.me';
+    const DEFAULT_ENDPOINT_BASE = 'https://linevendor.herokuapp.com/bot.php';
 
     /** @var string */
     private $channelSecret;
