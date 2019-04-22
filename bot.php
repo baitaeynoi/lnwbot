@@ -6,7 +6,7 @@ error_reporting(E_ALL);
  
 // include composer autoload
 //require_once '.:/lnwlinebot/.heroku/php/lib/php';
-require_once '../app/.heroku/php/vendor/autoload.php';
+require_once '../vendor/autoload.php';
  
 // การตั้งเกี่ยวกับ bot
 require_once 'bot_settings.php';
